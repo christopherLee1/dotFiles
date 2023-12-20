@@ -2,8 +2,9 @@
 syntax enable
 let g:solarized_termtrans=1
 let  g:solarized_termcolors=256
+let g:solarized_contrast="high"
 set background=dark
-colorscheme solarized
+colorscheme vimcolors
 
 " settings I like
 set ruler
@@ -37,3 +38,4 @@ if has("autocmd")
   \   exe "normal g'\"" |
   \ endif
 endif
+set tags=~/browser-terra-kentSrc/src/tags,~/kent/src/tags,./tags

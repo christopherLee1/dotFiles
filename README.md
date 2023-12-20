@@ -6,3 +6,11 @@ Each of the files should have enough comments to figure out what is going on.
 The vimcolors file is just a copy of the solarized vim colors in case something happens
 to that site:
 https://github.com/altercation/solarized
+
+To load Xresources file:
+cp Xresources ~/.Xresources
+xrdb -merge ~/.Xresources
+
+to get vim colors:
+mkdir -p ~/.vim/colors/
+cp vimcolors ~/.vim/colors/vimcolors.vim
